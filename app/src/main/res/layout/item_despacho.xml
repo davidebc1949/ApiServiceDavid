@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="10dp"
+    card_view:cardUseCompatPadding="true">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:background="@color/colorCardView"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/uno"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="131dp"
+            android:layout_y="15dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/dos"
+            android:layout_width="193dp"
+            android:layout_height="36dp"
+            android:layout_x="131dp"
+            android:layout_y="38dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/cinco"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_x="130dp"
+            android:layout_y="125dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/quinta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="124dp"
+            android:text="Lugar de consulta:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/cuatro"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_x="131dp"
+            android:layout_y="103dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/segun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="37dp"
+            android:layout_y="82dp"
+            android:text="Identificacion:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/tres"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="131dp"
+            android:layout_y="82dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/primer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="61dp"
+            android:layout_y="16dp"
+            android:text="Categoria:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/cuarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="69dp"
+            android:layout_y="40dp"
+            android:text="Formato:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/tercera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="78dp"
+            android:layout_y="104dp"
+            android:text="Idioma:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </AbsoluteLayout>
+</android.support.v7.widget.CardView>
